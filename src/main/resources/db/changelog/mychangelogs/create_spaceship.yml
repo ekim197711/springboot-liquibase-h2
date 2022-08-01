@@ -1,0 +1,24 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_spaceship
+      author: Mike
+      changes:
+        - createTable:
+            tableName: SPACE_SHIP
+            columns:
+              - column:
+                  name: id
+                  type: int
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: type
+                  type: text
+              - column:
+                  name: captain
+                  type: text
+              - column:
+                  name: fuel
+                  type: int
+
