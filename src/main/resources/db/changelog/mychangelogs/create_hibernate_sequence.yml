@@ -2,6 +2,7 @@ databaseChangeLog:
   - changeSet:
       id: defaultSequenceForSpringBootJPA
       author: Mike
+      dbms: 'h2, !postgresql, !mysql'
       changes:
         - createSequence:
             cacheSize: 371717
@@ -15,3 +16,4 @@ databaseChangeLog:
             schemaName: public
             sequenceName: HIBERNATE_SEQUENCE
             startValue: 25
+            isGenerated: false

@@ -17,7 +17,7 @@ databaseChangeLog:
               - column:
                   name: fuel
                   value: 88
-            dbms: 'h2,  !mysql'
+            dbms: 'h2, !postgresql, !mysql'
             schemaName: public
             tableName: SPACE_SHIP
         - insert:
@@ -34,6 +34,6 @@ databaseChangeLog:
               - column:
                   name: fuel
                   value: 44
-            dbms: 'h2,  !mysql'
+            dbms: 'h2, postgresql, !mysql'
             schemaName: public
             tableName: SPACE_SHIP

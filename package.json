@@ -1,0 +1,17 @@
+{
+  "name": "springboot-liquibase",
+  "version": "1.0.0",
+  "scripts": {
+    "start_postgres_database": "docker run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekim197711/springboot-liquibase-h2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekim197711/springboot-liquibase-h2/issues"
+  },
+  "homepage": "https://github.com/ekim197711/springboot-liquibase-h2#readme"
+}
